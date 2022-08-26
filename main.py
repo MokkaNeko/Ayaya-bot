@@ -1,13 +1,10 @@
 import discord
 from discord.ext import commands
-from dotenv import load_dotenv
 import os
 import random
 import asyncio
 
 import music_cog
-
-load_dotenv()
 
 c_credit = """
 ```Ayaya bot
@@ -132,4 +129,4 @@ async def on_command_error(ctx, error):
 
 #run
 bot.loop.create_task(change_pres())
-bot.run(os.getenv("TOKEN"))
+bot.run(OTEwNDM2NTU3MDcxMjE2Njgw.GmYqAw.OQCYmt-aAu0iGJV6EGRPvj-p8KcoF9RdxcD8Vw)
