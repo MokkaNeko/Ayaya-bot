@@ -129,4 +129,4 @@ async def on_command_error(ctx, error):
 
 #run
 bot.loop.create_task(change_pres())
-bot.run(OTEwNDM2NTU3MDcxMjE2Njgw.GmYqAw.OQCYmt-aAu0iGJV6EGRPvj-p8KcoF9RdxcD8Vw)
+bot.run("OTEwNDM2NTU3MDcxMjE2Njgw.GmYqAw.OQCYmt-aAu0iGJV6EGRPvj-p8KcoF9RdxcD8Vw")
