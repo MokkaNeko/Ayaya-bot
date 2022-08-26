@@ -117,7 +117,7 @@ async def server(ctx):
     await ctx.send(embed=embed)
 
 #music
-bot.add_cog(music_cog.music_cog(bot))
+#bot.add_cog(music_cog.music_cog(bot))
 
 #error
 @bot.event
