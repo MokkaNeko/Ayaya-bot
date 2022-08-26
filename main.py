@@ -131,4 +131,4 @@ async def on_command_error(ctx, error):
 
 #run
 bot.loop.create_task(change_pres())
-bot.run(os.environ("TOKEN"))
+bot.run(os.environ["TOKEN"])
