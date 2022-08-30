@@ -25,7 +25,7 @@ async def on_ready():
 #status
 async def change_pres():
     await bot.wait_until_ready()
-    statuses = ["with Furry Vornogiri | >>help", "Garut.3gp | >>help"]
+    statuses = ["with Furry Vornogiri", "Garut.3gp", "Top global osu boyolali", "Loli Hunter", "Penyeponk kenalpot"]
     while not bot.is_closed():
         status = random.choice(statuses)
         await bot.change_presence(activity=discord.Game(name=status))
